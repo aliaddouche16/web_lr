@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблиця</title>
+    <link rel="stylesheet" type="text/css" href="./css/normilize.css">
+    <style>
+    table.tabl {
+        width: 30%;
+      background-color: white;
+      border-collapse: collapse;
+      border-width: 2px;
+      border-color: black;
+      border-style: solid;
+      color: #000000;
+    }
+    
+    table.tabl td, table.tabl th {
+      border-width: 2px;
+      border-color: black;
+      border-style: solid;
+      padding: 3px;
+      text-align: center;
+    }
+    
+    table.tabl thead {
+      background-color: white;
+    }
+    </style>
+</head>
+<body>
+    <table class="tabl">
+        <tr>
+            <td rowspan="2">1</td>
+            <td style="width: 80px;">2</td>
+            <td>3</td>
+            <td rowspan="2">4</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td colspan="4">7</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>9</td>
+            <td>10</td>
+            <td>11</td>
+        </tr>
+    </table>
+</body>
+</html>

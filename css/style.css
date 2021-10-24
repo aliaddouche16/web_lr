@@ -1,0 +1,272 @@
+/* Синій блок */
+.blockLeft {
+    position: absolute;
+    width: 26%;
+    height: 1200px;
+    left: 3%;
+
+    word-wrap: break-word;
+    background: #1E2939;
+}
+/* Мармизка */
+.picture {
+    margin-top: 10%;
+    width: 100%;
+}
+.info{
+    word-wrap: break-word;
+    position: relative;
+    top: 5px;
+    left: 3%;
+}
+/* Текст контактів */
+.contactText{
+    position: relative;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+/* Контактний номер */
+.number{
+    position: relative;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+    color: #FFFFFF;
+
+}
+/* Електронна пошта */
+.email{  
+    position: relative;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+/* Хард скіли назва */
+.techSkillsText{
+    position: relative;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+/* список хард скілів */
+.techSkillsList{
+    position: relative;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+/* софт скіли назва */
+.softSkillsText{
+    position: relative;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+/* софт скіли список */
+.softSkillsList{
+    position: relative;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+.more_info{
+    position: absolute;
+    top: 5%;
+    left: 35%;
+    word-wrap: break-word;
+}
+/* назва професії */
+.studentText{
+    position: relative;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    color: #000000;
+}
+/* Ім'я і прізвище */
+.romanZhykhorText{
+    position: relative;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    /* identical to box height */
+
+    color: #000000;
+}
+/* Поточне місце роботи */
+.currentPlaceOfWork{
+    position: relative;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #000000;
+}
+/* наукові конференції */
+.scientificConferencesText{
+    position: relative;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+/* список наукових конференцій */
+.scientificConferencesList{
+    position: relative;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+}
+/* досвід роботи */
+.workExperienceText{
+    position: relative;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+/* список місць роботи */
+.workExperienceList{
+    position: relative;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #000000;
+}
+/* місце навчання */
+.educationText{
+    position: relative;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+/* інформація про навчання */
+.educaionInfo{
+    position: relative;
+}
+/* час коли навчався стиль тексту*/
+.timing1, .timing2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 250;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #000000;
+}
+/* місце де навчався стиль тексту */
+.education1, .education2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #FB906A;
+}
+/* спеціалізація */
+.specializationEdu{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000000;
+}
+/* Я можу це зробити (додаткове завдання) */
+.iCanDoThisText{
+    position: relative;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #000000;
+    
+}
+/* Я можу це зробити (додаткове завдання) список*/
+.iCanDoThisList{
+    position: relative;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000000;
+}
+a {
+    color: black;
+    font-weight: 600;
+}
